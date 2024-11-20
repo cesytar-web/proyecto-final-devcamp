@@ -4,6 +4,8 @@ body {
     margin-bottom: 100px;
 
 }
+
+
 .navigation-wrapper {
     height: 70px;
     background-color: black;
@@ -25,6 +27,8 @@ body {
 
 
 }
+
+
 .left> h2{
     color: yellow;
     margin-top: 0px;
@@ -47,10 +51,13 @@ body {
     display: inline-block;
     margin-right: 6px;
     margin-top: 15px;
-    padding: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 16px;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
     cursor: pointer;
 }
 .btn> i{
@@ -118,17 +125,24 @@ body {
     color: black;
     background-color: green;
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 2px;
     border: 2px;
+    height: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+
 }
 
 .btns> .btnb {
     background-color: black;
     color: white;
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 2px;
     border: 5px;
     margin-left: 15px;
+    height: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 
@@ -142,7 +156,7 @@ body {
 
 }
 .txt {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 500;
@@ -150,20 +164,22 @@ body {
 }
 .parrafo p {
     font-family: 'arial', sans-serif;
-    margin-top: 25px;
     color: white;
     margin-right: 320px;
     font-weight: 100px
+
 }
 
 span{
     color: rgb(68, 161, 193);
+
 }
 .parrafo> .imagen {
 
-    width: 500px;
-    height: 350px;
-    margin-left: 250px;
+    width: 515px;
+    height: 330px;
+    margin-left: 180px;
+    
 }
 
 .footer{
@@ -174,7 +190,7 @@ span{
 .table-footer
 th {
     border: 0.6px solid rgb(160 160 160);
-    padding: 15px 60px;
+    padding: 20px 60px;
     background-color: rgb(48, 46, 46);
     font-family: Arial;
     font-weight: 100;
