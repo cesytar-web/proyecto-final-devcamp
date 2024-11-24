@@ -1,213 +1,233 @@
 /* Common Styles*/
 body {
-    margin: 0px ;
-    margin-bottom: 100px;
+  margin: 0px;
+  margin-bottom: 100px;
+}
+.navigator-wrapper {
+  background-color: black;
+  display: flex;
+  height: 80px;
+  width: 100%;
+}
+
+.navigator-wrapper > .left-column img {
+  width: 220px;
+  height: 40px;
+}
+.navigator-wrapper > .center-column > .name {
+  display: grid;
+  grid-column: 1fr;
+  color: yellow;
+  margin: 10px;
+  margin-left: 50px;
+  margin-top: 15px;
+  font-size: 12px;
+  font-family: "lato";
+  font-weight: bold;
+  width: 500px;
+}
+
+.links-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  padding-bottom: 35px;
+}
+
+.links-wrapper > .nav-link a {
+  color: white;
+  text-decoration: none;
+  font-family: "lato";
+  font-weight: bold;
+}
+
+.center-column > .text-wrapper {
+  justify-content: space-between;
+  color: white;
+  margin-left: 50px;
+}
+.text-wrapper i {
+  color: #cbcbcb;
+}
+
+.logo-wrapper img {
+  background-color: black;
+  margin-right: 15px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.text-wrapper {
+  font-family: "Ubuntu-Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: #cbcbcb;
+}
+.text-wrapper i {
+  padding: 0px;
+  margin-right: 100px;
+  margin-left: 5px;
+}
+.navigator-wrapper > .right-column {
+  margin-left: 200px;
+}
+.right-column > .btn-wrapper > .btn {
+  background-color: rgb(48, 46, 46);
+  color: white;
+  border-radius: 4px;
+  font-family: "lato";
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 6px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  justify-content: space-between;
+  margin-bottom: 45px;
+  cursor: pointer;
+}
+.btn > i {
+  color: rgb(17, 233, 17);
+  font-size: 13px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.btn img {
+  
+  padding-right: 5px;
+  padding-top: 20px;
+  opacity: 80%;
 
 }
 
-
-.navigation-wrapper {
-    height: 70px;
-    background-color: black;
-    color: #cbcbcb;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    font-size: 15px;
-    cursor: pointer;
-      /* Flexbox container */
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px 80px
-      margin-bottom: 30px
-      
-}
-.logo-wrapper img{
-    background-color: black;
-    margin-left: 15px;
-
-
-}
-
-
-.left> h2{
-    color: yellow;
-    margin-top: 0px;
-    font-size: 15px;
-    
-}
-.nav-link a {
-    font-family: 'Ubuntu Condensed', sans-serif;
-    color: white;
-    text-decoration: none;
-    justify-content: space-between;
-
-}
-
-.botones> .btn{
-    background-color: rgb(48, 46, 46);
-    color: white;
-    border-radius: 4px;
-    font-family: 'Ubuntu Condensed', sans-serif;
-    display: inline-block;
-    margin-right: 6px;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 16px;
-    justify-content: space-between;
-    margin-bottom: 45px;
-    cursor: pointer;
-}
-.btn> i{
-    color: green;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.botones img{
-    background-color: rgb(193, 188, 188);
-    font-size: 0px;
-    margin-top: 30px;
-    margin-right: 8px;
-    margin-left: 1px;
-    margin-top: 50px;
-    opacity: 20%;
-
-    
-}
 .container {
-    display: flex;
-    background-color: rgb(48, 46, 46);
-
+  display: flex;
+  background-color: #2e3032;
 }
 
-.container> .container-text {
-    display: flex;
-    width: 1000%;
-    height: 1000%;
-    margin-left: 40px;
-    margin-top: 30px;
-    flex-direction: column;
-    padding: 0px;    
-    
+.container > .container-text {
+  display: flex;
+  width: 1000%;
+  height: 1000%;
+  margin-left: 40px;
+  margin-top: 50px;
+  flex-direction: column;
+  padding: 0px;
 }
-.container> .container-text h3{
-
-    font-family:'Ubuntu-Condensed', sans-serif;
-    color: white;
-    letter-spacing: 1px;
-    line-height: 30px;
-
+.container > .container-text p1 {
+  font-family: "lato", sans-serif;
+  font-size: 30px;
+  color: rgb(213, 202, 202);
+  line-height: 30px;
 }
-.container> .container-text p{
-
-    font-family: 'lato', sans-serif;
-    font-size: 18px;
-    color: white;
-    letter-spacing: 1px;
-    line-height: 30px;
-    
+.container-text strong {
+  color: rgb(244, 241, 241);
+}
+.container > .container-text img {
+  margin-right: 1px;
+  margin-left: 1px;
 }
 
-.container-botones> .btns {
-    display: flex;
-    padding: 10px;
-    height: 50px;
-    
+.container > .container-text p {
+  font-family: "lato", sans-serif;
+  font-size: 25px;
+  color: rgb(189, 186, 186);
+  line-height: 40px;
 }
 
-.btns> .btng {
-    color: black;
-    background-color: rgb(17, 233, 17);
-    font-size: 18px;
-    border-radius: 2px;
-    border: 2px;
-    height: 40px;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-family: 'lato';
-
+.container-botones > .btns {
+  display: flex;
+  padding: 10px;
+  height: 50px;
 }
 
-.btns> .btnb {
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    border-radius: 2px;
-    border: 5px;
-    margin-left: 15px;
-    height: 40px;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-family: 'Helvetica';
-    font-weight: bold;
+.btns > .btng {
+  color: black;
+  background-color: rgb(87, 195, 87);
+  font-size: 25px;
+  border-radius: 2px;
+  border: 2px;
+  height: 55px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "lato";
+  font-weight: bold;
+  margin-right: 5px;
+}
 
+.btns > .btnb {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  border-radius: 2px;
+  border: 5px;
+  margin-left: 5px;
+  height: 55px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "Helvetica";
 }
 
 .contenedor {
-    padding: 60px;
-    padding-right: 5px;
-    padding-top: 20px;
-    padding-bottom: 1px;
-    width: 55%;
-    text-align: right;
-
+  padding: 60px;
+  padding-right: 5px;
+  padding-top: 20px;
+  padding-bottom: 1px;
+  width: 55%;
+  text-align: right;
 }
 .txt {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    text-transform: uppercase;
-    font-weight: 500;
-    margin-right: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-right: 200px;
 }
 .parrafo p {
-    font-family: 'arial', sans-serif;
-    color: white;
-    margin-right: 290px;
-    font-weight: bold;
-
+  font-family: "arial", sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-right: 290px;
 }
 
-span{
-    color: rgb(68, 161, 193);
-    font-weight: bold;
-
+span {
+  color: rgb(68, 161, 193);
+  font-weight: bold;
 }
-.parrafo> .imagen {
-
-    width: 500px;
-    height: 350px;
-    margin-left: 180px;
-    
+.parrafo > .imagen {
+  width: 500px;
+  height: 350px;
+  margin-left: 180px;
 }
 
-.footer{
-    background: black;
-    padding: 0 0 60px 0;
+.footer {
+  background: black;
+  padding: 0 0 60px 0;
 }
 
-.table-footer
-th {
-    border: 0.6px solid rgb(160 160 160);
-    padding: 20px 60px;
-    background-color: rgb(48, 46, 46);
-    font-family: lato;
-    font-weight: bold;
-    color: white;
-    border-radius: 2px;
-    box-shadow: 2px 2px 15px rgba(0, 0, 0, 2);
-    width: 700px;
-    cursor: pointer;
-    
-   
-  }
+.table-footer th {
+  border: 0.6px solid rgb(160 160 160);
+  padding: 10px 60px;
+  background-color: #2e3032;
+  font-family: "lato", sans-serif;
+  font-weight: "bold";
+  font-size: 16px;
+  color: white;
+  border-radius: 2px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 2);
+  width: 700px;
+  cursor: pointer;
+}
 
-  .table-footer
-th span {
-    font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: white   
-  }
+.table-footer th span {
+  font-size: 1.5rem;
+  font-family: "Afacad", sans-serif;
+  font-weight: bold;
+  font-style: inherit;
+  letter-spacing: 0px;
+  color: white;
+}
