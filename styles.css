@@ -17,7 +17,7 @@ body {
 .navigator-wrapper > .center-column > .name {
   display: grid;
   grid-column: 1fr;
-  color: yellow;
+  color: rgb(191, 191, 120);
   margin: 10px;
   margin-left: 50px;
   margin-top: 15px;
@@ -43,7 +43,7 @@ body {
 
 .center-column > .text-wrapper {
   justify-content: space-between;
-  color: white;
+  color: rgb(123, 120, 120);
   margin-left: 50px;
 }
 .text-wrapper i {
@@ -61,7 +61,7 @@ body {
   font-family: "Ubuntu-Condensed", sans-serif;
   font-weight: bold;
   font-size: 14px;
-  color: #cbcbcb;
+  color: #989595;
 }
 .text-wrapper i {
   padding: 0px;
