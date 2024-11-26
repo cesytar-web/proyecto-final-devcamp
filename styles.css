@@ -89,18 +89,16 @@ body {
   margin-bottom: 45px;
   cursor: pointer;
 }
-.btn > i {
+.btn i {
   color: rgb(17, 233, 17);
   font-size: 13px;
   padding: 5px;
   cursor: pointer;
 }
 
-.btn img {
-  
-  padding-right: 5px;
-  padding-top: 20px;
-  opacity: 80%;
+ img {
+background-color: rgb(99, 95, 87);
+
 
 }
 
