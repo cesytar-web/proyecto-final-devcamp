@@ -69,7 +69,12 @@ body {
   margin-left: 5px;
 }
 .navigator-wrapper > .right-column {
-  margin-left: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 30px;
+
 }
 .right-column > .btn-wrapper > .btn {
   background-color: rgb(48, 46, 46);
@@ -96,11 +101,12 @@ body {
   cursor: pointer;
 }
 
- img {
-background-color: rgb(99, 95, 87);
-margin-right: 10px;
-
-
+.icon-mag {
+  width: 25px;
+  height: 25px;
+  fill: #535557;
+  margin-left: 2px;
+  margin-right: 10px;
 }
 
 .container {
@@ -119,7 +125,7 @@ margin-right: 10px;
 }
 .container > .container-text p1 {
   font-family: "lato", sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   color: rgb(213, 202, 202);
   line-height: 30px;
 }
@@ -133,9 +139,9 @@ margin-right: 10px;
 
 .container > .container-text p {
   font-family: "lato", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   color: rgb(189, 186, 186);
-  line-height: 40px;
+  line-height: 30px;
 }
 
 .container-botones > .btns {
@@ -190,7 +196,7 @@ margin-right: 10px;
   font-family: "arial", sans-serif;
   font-weight: bold;
   color: white;
-  margin-right: 290px;
+  margin-right: 320px;
 }
 
 span {
@@ -198,9 +204,9 @@ span {
   font-weight: bold;
 }
 .parrafo > .imagen {
-  width: 500px;
+  width: 550px;
   height: 350px;
-  margin-left: 180px;
+  margin-left: 220px;
 }
 
 .footer {
